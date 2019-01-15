@@ -1,13 +1,19 @@
 .wrapper {
   width: 100%;
   height: 600px;
-  background-color: red;
-    .top_image {
-      width: 100%;
-      height: 600px;
-    }
+  position: relative;
+
+  .top_image {
+    width: 100%;
+    height: 600px;
+  }
 }
 
-.top_text {
-
+.top_text_area {
+  height: 200px;
+  width: 200px;
+  clear: both;
+  background-color: red;
+  // z-index: 1.5;
+  position:absolute; top:200px; left:612px;
 }
