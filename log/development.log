@@ -425,3 +425,10 @@ Processing by TweetsController#index as HTML
 Completed 200 OK in 46ms (Views: 42.6ms)
 
 
+Started GET "/" for 127.0.0.1 at 2019-01-15 10:00:00 +0900
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.haml within layouts/application
+  Rendered tweets/index.html.haml within layouts/application (1.8ms)
+Completed 200 OK in 22ms (Views: 19.3ms)
+
+
